@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10F03BF1D4FBFC800D07BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F03BE1D4FBFC800D07BF6 /* AppDelegate.swift */; };
+		A10F03C11D4FBFC800D07BF6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F03C01D4FBFC800D07BF6 /* MasterViewController.swift */; };
+		A10F03C31D4FBFC800D07BF6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F03C21D4FBFC800D07BF6 /* DetailViewController.swift */; };
+		A10F03C61D4FBFC800D07BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10F03C41D4FBFC800D07BF6 /* Main.storyboard */; };
+		A10F03C81D4FBFC800D07BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10F03C71D4FBFC800D07BF6 /* Assets.xcassets */; };
+		A10F03CB1D4FBFC800D07BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10F03C91D4FBFC800D07BF6 /* LaunchScreen.storyboard */; };
+		A10F03D61D4FBFC800D07BF6 /* pH_Simple_NotePadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F03D51D4FBFC800D07BF6 /* pH_Simple_NotePadTests.swift */; };
+		A10F03E11D4FBFC800D07BF6 /* pH_Simple_NotePadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F03E01D4FBFC800D07BF6 /* pH_Simple_NotePadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10F03D21D4FBFC800D07BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10F03B31D4FBFC800D07BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10F03BA1D4FBFC800D07BF6;
+			remoteInfo = "pH Simple NotePad";
+		};
+		A10F03DD1D4FBFC800D07BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10F03B31D4FBFC800D07BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10F03BA1D4FBFC800D07BF6;
+			remoteInfo = "pH Simple NotePad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10F03BB1D4FBFC800D07BF6 /* pH Simple NotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pH Simple NotePad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10F03BE1D4FBFC800D07BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10F03C01D4FBFC800D07BF6 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A10F03C21D4FBFC800D07BF6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A10F03C51D4FBFC800D07BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A10F03C71D4FBFC800D07BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10F03CA1D4FBFC800D07BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A10F03CC1D4FBFC800D07BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10F03D11D4FBFC800D07BF6 /* pH Simple NotePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH Simple NotePadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10F03D51D4FBFC800D07BF6 /* pH_Simple_NotePadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_Simple_NotePadTests.swift; sourceTree = "<group>"; };
+		A10F03D71D4FBFC800D07BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10F03DC1D4FBFC800D07BF6 /* pH Simple NotePadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH Simple NotePadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10F03E01D4FBFC800D07BF6 /* pH_Simple_NotePadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_Simple_NotePadUITests.swift; sourceTree = "<group>"; };
+		A10F03E21D4FBFC800D07BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10F03B81D4FBFC800D07BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F03CE1D4FBFC800D07BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F03D91D4FBFC800D07BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10F03B21D4FBFC800D07BF6 = {
+			isa = PBXGroup;
+			children = (
+				A10F03BD1D4FBFC800D07BF6 /* pH Simple NotePad */,
+				A10F03D41D4FBFC800D07BF6 /* pH Simple NotePadTests */,
+				A10F03DF1D4FBFC800D07BF6 /* pH Simple NotePadUITests */,
+				A10F03BC1D4FBFC800D07BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10F03BC1D4FBFC800D07BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10F03BB1D4FBFC800D07BF6 /* pH Simple NotePad.app */,
+				A10F03D11D4FBFC800D07BF6 /* pH Simple NotePadTests.xctest */,
+				A10F03DC1D4FBFC800D07BF6 /* pH Simple NotePadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10F03BD1D4FBFC800D07BF6 /* pH Simple NotePad */ = {
+			isa = PBXGroup;
+			children = (
+				A10F03BE1D4FBFC800D07BF6 /* AppDelegate.swift */,
+				A10F03C01D4FBFC800D07BF6 /* MasterViewController.swift */,
+				A10F03C21D4FBFC800D07BF6 /* DetailViewController.swift */,
+				A10F03C41D4FBFC800D07BF6 /* Main.storyboard */,
+				A10F03C71D4FBFC800D07BF6 /* Assets.xcassets */,
+				A10F03C91D4FBFC800D07BF6 /* LaunchScreen.storyboard */,
+				A10F03CC1D4FBFC800D07BF6 /* Info.plist */,
+			);
+			path = "pH Simple NotePad";
+			sourceTree = "<group>";
+		};
+		A10F03D41D4FBFC800D07BF6 /* pH Simple NotePadTests */ = {
+			isa = PBXGroup;
+			children = (
+				A10F03D51D4FBFC800D07BF6 /* pH_Simple_NotePadTests.swift */,
+				A10F03D71D4FBFC800D07BF6 /* Info.plist */,
+			);
+			path = "pH Simple NotePadTests";
+			sourceTree = "<group>";
+		};
+		A10F03DF1D4FBFC800D07BF6 /* pH Simple NotePadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A10F03E01D4FBFC800D07BF6 /* pH_Simple_NotePadUITests.swift */,
+				A10F03E21D4FBFC800D07BF6 /* Info.plist */,
+			);
+			path = "pH Simple NotePadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10F03BA1D4FBFC800D07BF6 /* pH Simple NotePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10F03E51D4FBFC800D07BF6 /* Build configuration list for PBXNativeTarget "pH Simple NotePad" */;
+			buildPhases = (
+				A10F03B71D4FBFC800D07BF6 /* Sources */,
+				A10F03B81D4FBFC800D07BF6 /* Frameworks */,
+				A10F03B91D4FBFC800D07BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pH Simple NotePad";
+			productName = "pH Simple NotePad";
+			productReference = A10F03BB1D4FBFC800D07BF6 /* pH Simple NotePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10F03D01D4FBFC800D07BF6 /* pH Simple NotePadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10F03E81D4FBFC800D07BF6 /* Build configuration list for PBXNativeTarget "pH Simple NotePadTests" */;
+			buildPhases = (
+				A10F03CD1D4FBFC800D07BF6 /* Sources */,
+				A10F03CE1D4FBFC800D07BF6 /* Frameworks */,
+				A10F03CF1D4FBFC800D07BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10F03D31D4FBFC800D07BF6 /* PBXTargetDependency */,
+			);
+			name = "pH Simple NotePadTests";
+			productName = "pH Simple NotePadTests";
+			productReference = A10F03D11D4FBFC800D07BF6 /* pH Simple NotePadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A10F03DB1D4FBFC800D07BF6 /* pH Simple NotePadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10F03EB1D4FBFC800D07BF6 /* Build configuration list for PBXNativeTarget "pH Simple NotePadUITests" */;
+			buildPhases = (
+				A10F03D81D4FBFC800D07BF6 /* Sources */,
+				A10F03D91D4FBFC800D07BF6 /* Frameworks */,
+				A10F03DA1D4FBFC800D07BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10F03DE1D4FBFC800D07BF6 /* PBXTargetDependency */,
+			);
+			name = "pH Simple NotePadUITests";
+			productName = "pH Simple NotePadUITests";
+			productReference = A10F03DC1D4FBFC800D07BF6 /* pH Simple NotePadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10F03B31D4FBFC800D07BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pierre-Henry Soria";
+				TargetAttributes = {
+					A10F03BA1D4FBFC800D07BF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A10F03D01D4FBFC800D07BF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A10F03BA1D4FBFC800D07BF6;
+					};
+					A10F03DB1D4FBFC800D07BF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A10F03BA1D4FBFC800D07BF6;
+					};
+				};
+			};
+			buildConfigurationList = A10F03B61D4FBFC800D07BF6 /* Build configuration list for PBXProject "pH Simple NotePad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10F03B21D4FBFC800D07BF6;
+			productRefGroup = A10F03BC1D4FBFC800D07BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10F03BA1D4FBFC800D07BF6 /* pH Simple NotePad */,
+				A10F03D01D4FBFC800D07BF6 /* pH Simple NotePadTests */,
+				A10F03DB1D4FBFC800D07BF6 /* pH Simple NotePadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10F03B91D4FBFC800D07BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F03CB1D4FBFC800D07BF6 /* LaunchScreen.storyboard in Resources */,
+				A10F03C81D4FBFC800D07BF6 /* Assets.xcassets in Resources */,
+				A10F03C61D4FBFC800D07BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F03CF1D4FBFC800D07BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F03DA1D4FBFC800D07BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10F03B71D4FBFC800D07BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F03C31D4FBFC800D07BF6 /* DetailViewController.swift in Sources */,
+				A10F03C11D4FBFC800D07BF6 /* MasterViewController.swift in Sources */,
+				A10F03BF1D4FBFC800D07BF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F03CD1D4FBFC800D07BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F03D61D4FBFC800D07BF6 /* pH_Simple_NotePadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F03D81D4FBFC800D07BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F03E11D4FBFC800D07BF6 /* pH_Simple_NotePadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10F03D31D4FBFC800D07BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10F03BA1D4FBFC800D07BF6 /* pH Simple NotePad */;
+			targetProxy = A10F03D21D4FBFC800D07BF6 /* PBXContainerItemProxy */;
+		};
+		A10F03DE1D4FBFC800D07BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10F03BA1D4FBFC800D07BF6 /* pH Simple NotePad */;
+			targetProxy = A10F03DD1D4FBFC800D07BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A10F03C41D4FBFC800D07BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10F03C51D4FBFC800D07BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A10F03C91D4FBFC800D07BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10F03CA1D4FBFC800D07BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10F03E31D4FBFC800D07BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10F03E41D4FBFC800D07BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10F03E61D4FBFC800D07BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pH Simple NotePad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pH-Simple-NotePad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A10F03E71D4FBFC800D07BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pH Simple NotePad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pH-Simple-NotePad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A10F03E91D4FBFC800D07BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "pH Simple NotePadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hizup.com.pH-Simple-NotePadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH Simple NotePad.app/pH Simple NotePad";
+			};
+			name = Debug;
+		};
+		A10F03EA1D4FBFC800D07BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "pH Simple NotePadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hizup.com.pH-Simple-NotePadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH Simple NotePad.app/pH Simple NotePad";
+			};
+			name = Release;
+		};
+		A10F03EC1D4FBFC800D07BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "pH Simple NotePadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hizup.com.pH-Simple-NotePadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "pH Simple NotePad";
+			};
+			name = Debug;
+		};
+		A10F03ED1D4FBFC800D07BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "pH Simple NotePadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hizup.com.pH-Simple-NotePadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "pH Simple NotePad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10F03B61D4FBFC800D07BF6 /* Build configuration list for PBXProject "pH Simple NotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F03E31D4FBFC800D07BF6 /* Debug */,
+				A10F03E41D4FBFC800D07BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10F03E51D4FBFC800D07BF6 /* Build configuration list for PBXNativeTarget "pH Simple NotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F03E61D4FBFC800D07BF6 /* Debug */,
+				A10F03E71D4FBFC800D07BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A10F03E81D4FBFC800D07BF6 /* Build configuration list for PBXNativeTarget "pH Simple NotePadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F03E91D4FBFC800D07BF6 /* Debug */,
+				A10F03EA1D4FBFC800D07BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A10F03EB1D4FBFC800D07BF6 /* Build configuration list for PBXNativeTarget "pH Simple NotePadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F03EC1D4FBFC800D07BF6 /* Debug */,
+				A10F03ED1D4FBFC800D07BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10F03B31D4FBFC800D07BF6 /* Project object */;
+}
