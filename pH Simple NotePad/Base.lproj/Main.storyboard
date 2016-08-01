@@ -42,7 +42,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Note" id="mOI-FS-AaM"/>
+                    <navigationItem key="navigationItem" title="pH Simple Notepad" id="mOI-FS-AaM"/>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="tPb-zI-KEM" id="zvd-22-cUM"/>
                     </connections>
