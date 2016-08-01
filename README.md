@@ -11,7 +11,7 @@ Like my [Desktop Java Text Editor](https://github.com/pH-7/Simple-Java-Text-Edit
 
 ## The Author
 
-(https://github.com/pH-7/)[Pierre-Henry Soria]
+[Pierre-Henry Soria](https://github.com/pH-7/)
 
 
 ## Contact
