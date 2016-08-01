@@ -52,6 +52,11 @@ class MasterViewController: UITableViewController {
     }
 
     func insertNewObject(sender: AnyObject) {
+        // [iPhone, landscape mode] Only allow to create new notes if not editing more (not allow to edit there)
+        if detailViewController?.detailDescriptionLabel.editable == false {
+            return
+        }
+
         if objects.count == 0 ||  objects[0] != BLANK_NOTE {
             objects.insert(BLANK_NOTE, atIndex: 0) // Default index = 0 (top one)
             let indexPath = NSIndexPath(forRow: 0, inSection: 0)
@@ -64,14 +69,16 @@ class MasterViewController: UITableViewController {
     // MARK: - Segues
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        enableEditing()
+
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                let object = objects[indexPath.row]
                 currentIndex = indexPath.row
-                detailViewController?.detailItem = object
-                detailViewController?.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-                detailViewController?.navigationItem.leftItemsSupplementBackButton = true
             }
+            let object = objects[currentIndex]
+            detailViewController?.detailItem = object
+            detailViewController?.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
+            detailViewController?.navigationItem.leftItemsSupplementBackButton = true
         }
     }
 
@@ -111,12 +118,14 @@ class MasterViewController: UITableViewController {
         super.setEditing(editing, animated: animated)
         
         if editing {
+            disableEditing() // Disable editing mode when deleting a note
             return
         }
         saveNotes()
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        disableEditing()
         saveNotes()
     }
 
@@ -131,6 +140,15 @@ class MasterViewController: UITableViewController {
             // If there are notes to load
             objects = loadNotes
         }
+    }
+
+    func enableEditing() {
+        detailViewController?.detailDescriptionLabel.editable = true
+    }
+
+    func disableEditing() {
+        detailViewController?.detailDescriptionLabel.editable = false // Avoid users edit a deleted note
+        detailViewController?.detailDescriptionLabel.text = "" // And then set empty string
     }
 }
 
