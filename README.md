@@ -4,11 +4,11 @@
 
 Like my [Desktop Java Text Editor](https://github.com/pH-7/Simple-Java-Text-Editor), this [Swift](https://swift.org) iPhone app is easy to understand for beginners and contains several useful comments. Feel free to edit, add features and create PRs :smiley:
 
-![Create Note - iOS Swift notepad app](Screenshots/Simulator Screen Shot 1 Aug 2016, 22.22.10.png)
+![Create Note - iOS Swift notepad app](Screenshots/create-a-note.png)
 
-![Delete/Edit Note - iOS Swift notepad app](Screenshots/Simulator Screen Shot 1 Aug 2016, 22.21.59.png)
+![Delete/Edit Note - iOS Swift notepad app](Screenshots/delete-edit-a-note.png)
 
-![iPhone, Landscape mode - iOS Swift note app](Screenshots/Simulator Screen Shot 1 Aug 2016, 22.58.17.png)
+![iPhone, Landscape mode - iOS Swift note app](Screenshots/landscape-mode-note.png)
 
 
 ## The Author
